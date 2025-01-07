@@ -1,4 +1,4 @@
 const reviews = [
-{ nama: "Ahmad", tanggal: "2025-01-07", bintang: 5, ulasan: "Produk bagus." },
-{ nama: "Siti", tanggal: "2025-01-06", bintang: 5, ulasan: "Wiremesh bagus, pengiriman tidak masalah" },
+{ nama: "Adi", tanggal: "2025-01-07", bintang: 5, ulasan: "Produk bagus." },
+{ nama: "Ani", tanggal: "2025-01-06", bintang: 4, ulasan: "Wiremesh bagus, pengiriman tidak masalah" },
 ];
