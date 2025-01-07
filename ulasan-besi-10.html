@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Jayasteel : Produk pilihan untuk dunia konstruksi</title>
+<link href='https://www.jayasteel.com/favicon.ico' rel='shortcut icon' type='image/x-icon'/>
+<meta name="author" content="okRek">
+<meta name="description" content="Desain dan Produksi: Produk konstruksi: besi beton, baja tulangan, wiremesh, wire mesh, besi UNP, besi siku, profile hollow">
+<meta name="keywords" content="desain, produksi, produk, besi beton, baja tulangan, wiremesh, wire mesh, besi UNP, besi siku, profile hollow, surabaya, jakarta, wf, h-beam, CNP, plat strip, nako, polos, ulir, betoneser">
+<meta name="robots" content="index follow">
+
+<style>.stars{font-size:39px;color:lightgray;cursor:pointer}.stars.selected{color:gold}.stars:hover{color:gold}.star-rating{display:inline-block;direction:rtl}</style>
+    <h2>Form Ulasan</h2>
+    <form id="reviewForm" onsubmit="return sendReview();">
+        <label for="reviewDate">Tanggal:</label>
+        <input style="border-width: 0;background-color: transparent;"type="text" id="reviewDate" name="reviewDate" value="" disabled><br>
+        <label for="name">Nama:</label>
+        <input style="color: #003079;font-size: 100%;padding:12px;width: 380px;max-width:90%;" type="text" id="name" name="name" required><br><br>
+
+        <label for="rating">Pilih Bintang:</label>
+        <div class="star-rating">
+            <span class="stars" data-value="5">&#9733;</span>
+            <span class="stars" data-value="4">&#9733;</span>
+            <span class="stars" data-value="3">&#9733;</span>
+            <span class="stars" data-value="2">&#9733;</span>
+            <span class="stars" data-value="1">&#9733;</span>
+        </div>
+<br>
+        <label for="reviewText">Teks Ulasan:</label><br>
+        <textarea style="padding:12px;color:#003079;font-size:100%;width:464px;max-width:90%;" id="reviewText" name="reviewText" rows="4" required></textarea><br>
+
+        <button style="margin-bottom:font-size: 100%;padding: 12px;width:464px;max-width:90%;" type="submit">Kirim Ulasan</button>
+    </form>
+<br><br><br><br><br>
+<script>document.getElementById("reviewDate").value=new Date().toLocaleDateString();let ratingValue=0;const stars=document.querySelectorAll(".stars");stars.forEach(star=>{star.addEventListener("click",function(){ratingValue=this.getAttribute("data-value");updateStars(ratingValue)}),star.addEventListener("mouseover",function(){const value=this.getAttribute("data-value");updateStars(value)}),star.addEventListener("mouseout",function(){updateStars(ratingValue)})});function updateStars(value){stars.forEach(star=>{star.getAttribute("data-value")<=value?star.classList.add("selected"):star.classList.remove("selected")})}function sendReview(){const name=document.getElementById("name").value,reviewDate=document.getElementById("reviewDate").value,reviewText=document.getElementById("reviewText").value,currentUrl=window.location.href;if(0===ratingValue)return alert("Silakan pilih rating bintang!"),!1;const message=`Ulasan Baru:\n\nNama: ${name}\nTanggal: ${reviewDate}\nRating: ${ratingValue} Bintang\nUlasan: ${reviewText}\nURL Halaman: ${currentUrl}`,phone="6281327707780",whatsappUrl=`https://wa.me/${phone}?text=${encodeURIComponent(message)}`;return window.open(whatsappUrl,"_blank"),!1}</script>
+</body></html>
