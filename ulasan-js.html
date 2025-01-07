@@ -55,48 +55,30 @@
             return false; // Mencegah reload halaman
         }
     </script>
-    <style>
-        .stars {
-            font-size: 39px;
-            color: lightgray;
-            cursor: pointer;
-        }
-        .stars.selected {
-            color: gold;
-        }
-        .stars:hover {
-            color: gold;
-        }
-        .star-rating {
-            display: inline-block;
-            direction: rtl;
-        }
-    </style>
+ <style>.stars{font-size:39px;color:lightgray;cursor:pointer}.stars.selected{color:gold}.stars:hover{color:gold}.star-rating{display:inline-block;direction:rtl}</style>
 </head>
 <body>
     <h2>Form Ulasan</h2>
     <form id="reviewForm" onsubmit="return sendReview();">
-        <label for="reviewDate">Tanggal:</label>
-        <input type="text" id="reviewDate" name="reviewDate" value="" disabled><br>
+        <label>Tanggal:</label>
+        <input disabled="" id="reviewDate" name="reviewDate" style="background-color: transparent; border-width: 0px;" type="text" value="" /><br />
+        <label>Nama:</label>
+        <input id="name" name="name" required="" style="color: #003079; font-size: 100%; max-width: 90%; padding: 12px; width: 380px;" type="text" /><br /><br />
 
-        <label for="name">Nama:</label>
-        <input type="text" id="name" name="name" required><br><br>
-
-        <label for="rating">Pilih Bintang:</label>
+        <label>Pilih Bintang:</label>
         <div class="star-rating">
-            <span class="stars" data-value="5" onclick="ratingValue=5; updateStars(5);">&#9733;</span>
-            <span class="stars" data-value="4" onclick="ratingValue=4; updateStars(4);">&#9733;</span>
-            <span class="stars" data-value="3" onclick="ratingValue=3; updateStars(3);">&#9733;</span>
-            <span class="stars" data-value="2" onclick="ratingValue=2; updateStars(2);">&#9733;</span>
-            <span class="stars" data-value="1" onclick="ratingValue=1; updateStars(1);">&#9733;</span>
-        </div><br>
+            <span class="stars" data-value="5">★</span>
+            <span class="stars" data-value="4">★</span>
+            <span class="stars" data-value="3">★</span>
+            <span class="stars" data-value="2">★</span>
+            <span class="stars" data-value="1">★</span>
+        </div>
+<br />
+        <label>Teks Ulasan:</label><br />
+        <textarea id="reviewText" name="reviewText" required="" rows="4" style="color: #003079; font-size: 100%; max-width: 90%; padding: 12px; width: 464px;"></textarea><br />
 
-        <label for="reviewText">Teks Ulasan:</label><br>
-        <textarea id="reviewText" name="reviewText" rows="4" required></textarea><br>
-
-        <button type="submit">Kirim Ulasan</button>
+        <button style="font-size: 100%; max-width: 90%; padding: 12px; width: 464px;" type="submit">Kirim Ulasan</button>
     </form>
-
     <script>
         // Mengisi tanggal otomatis
         document.getElementById("reviewDate").value = new Date().toLocaleDateString();
