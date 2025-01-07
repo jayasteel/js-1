@@ -39,7 +39,7 @@
     </form>
 <br><br><br><br><br>
 <script>
-  function sendReview() {
+function sendReview() {
     const name = document.getElementById("name").value;
     const reviewDate = document.getElementById("reviewDate").value;
     const reviewText = document.getElementById("reviewText").value;
@@ -52,15 +52,15 @@
 
     // Data untuk email
     const emailParams = {
-        name,
-        reviewDate,
+        name: name,
+        reviewDate: reviewDate,
         rating: `${ratingValue} Bintang`,
-        reviewText,
-        currentUrl,
+        reviewText: reviewText,
+        currentUrl: currentUrl,
     };
 
     // Kirim email dengan EmailJS
-    emailjs.send("service_6dkznxf", "template_ksckdih", emailParams)
+    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", emailParams)
         .then(response => {
             alert("Ulasan Anda berhasil dikirim ke email kami. Terima kasih!");
         })
@@ -68,13 +68,8 @@
             alert("Gagal mengirim ulasan ke email. Silakan coba lagi.");
         });
 
-    // Kirim ke WhatsApp
-    const message = `Ulasan Baru:\n\nNama: ${name}\nTanggal: ${reviewDate}\nRating: ${ratingValue} Bintang\nUlasan: ${reviewText}\nURL Halaman: ${currentUrl}`;
-    const phone = "6281327707780";
-    const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
-    window.open(whatsappUrl, "_blank");
-
-    return false;
+    return false; // Mencegah reload halaman
 }
+
 </script>
 </body></html>
