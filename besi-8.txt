@@ -1,0 +1,7 @@
+Nama,Tanggal,Bintang,Ulasan
+Ahmad,2025-01-07,5,"Produk besi beton sangat berkualitas, tidak ada cacat, dan pengirimannya cepat. Sangat puas!"
+Siti,2025-01-06,4,"Besi betonnya bagus, tetapi pengiriman sedikit terlambat. Secara keseluruhan memuaskan."
+Budi,2025-01-05,5,"Harga bersaing dan kualitas sangat baik. Cocok untuk proyek konstruksi saya."
+Rina,2025-01-04,3,"Kualitas besi cukup baik, tetapi panjangnya kurang sesuai dengan spesifikasi yang diharapkan."
+Andi,2025-01-03,4,"Produk sesuai dengan deskripsi dan kualitasnya oke. Pengemasan juga aman."
+Lia,2025-01-02,5,"Pelayanan sangat ramah, dan besi beton sampai tepat waktu dengan kualitas terbaik!"
