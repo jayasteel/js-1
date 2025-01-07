@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Ulasan Jayasteel</title>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        // Inisialisasi EmailJS
+        emailjs.init("l3Asw6rZKW4S248c-"); // Ganti "YOUR_USER_ID" dengan User ID dari EmailJS Anda
+
+        let ratingValue = 0;
+
+        function updateStars(value) {
+            const stars = document.querySelectorAll(".stars");
+            stars.forEach(star => {
+                if (star.getAttribute("data-value") <= value) {
+                    star.classList.add("selected");
+                } else {
+                    star.classList.remove("selected");
+                }
+            });
+        }
+
+        function sendReview() {
+            const name = document.getElementById("name").value;
+            const reviewDate = document.getElementById("reviewDate").value;
+            const reviewText = document.getElementById("reviewText").value;
+            const currentUrl = window.location.href;
+
+            if (ratingValue === 0) {
+                alert("Silakan pilih rating bintang!");
+                return false;
+            }
+
+            // Data untuk email
+            const emailParams = {
+                name: name,
+                reviewDate: reviewDate,
+                rating: `${ratingValue} Bintang`,
+                reviewText: reviewText,
+                currentUrl: currentUrl
+            };
+
+            // Kirim email melalui EmailJS
+            emailjs.send("service_6dkznxf", "template_ksckdih", emailParams) // Ganti dengan Service ID dan Template ID Anda
+                .then(response => {
+                    alert("Ulasan Anda berhasil dikirim. Terima kasih!");
+                })
+                .catch(error => {
+                    alert("Gagal mengirim ulasan. Silakan coba lagi.");
+                    console.error("EmailJS Error:", error);
+                });
+
+            return false; // Mencegah reload halaman
+        }
+    </script>
+    <style>
+        .stars {
+            font-size: 39px;
+            color: lightgray;
+            cursor: pointer;
+        }
+        .stars.selected {
+            color: gold;
+        }
+        .stars:hover {
+            color: gold;
+        }
+        .star-rating {
+            display: inline-block;
+            direction: rtl;
+        }
+    </style>
+</head>
+<body>
+    <h2>Form Ulasan</h2>
+    <form id="reviewForm" onsubmit="return sendReview();">
+        <label for="reviewDate">Tanggal:</label>
+        <input type="text" id="reviewDate" name="reviewDate" value="" disabled><br>
+
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="rating">Pilih Bintang:</label>
+        <div class="star-rating">
+            <span class="stars" data-value="5" onclick="ratingValue=5; updateStars(5);">&#9733;</span>
+            <span class="stars" data-value="4" onclick="ratingValue=4; updateStars(4);">&#9733;</span>
+            <span class="stars" data-value="3" onclick="ratingValue=3; updateStars(3);">&#9733;</span>
+            <span class="stars" data-value="2" onclick="ratingValue=2; updateStars(2);">&#9733;</span>
+            <span class="stars" data-value="1" onclick="ratingValue=1; updateStars(1);">&#9733;</span>
+        </div><br>
+
+        <label for="reviewText">Teks Ulasan:</label><br>
+        <textarea id="reviewText" name="reviewText" rows="4" required></textarea><br>
+
+        <button type="submit">Kirim Ulasan</button>
+    </form>
+
+    <script>
+        // Mengisi tanggal otomatis
+        document.getElementById("reviewDate").value = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
