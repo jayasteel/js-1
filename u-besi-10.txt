@@ -1,0 +1,4 @@
+const reviews = [
+  { nama: "Yusuf", tanggal: "2025-01-08", bintang: 5, ulasan: "Kualitas sangat memuaskan, rekomendasi untuk proyek besar." },
+  { nama: "Nina", tanggal: "2024-12-08", bintang: 4, ulasan: "Produk cukup baik, tetapi perlu peningkatan layanan pengiriman." }
+];
