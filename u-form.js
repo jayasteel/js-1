@@ -1,10 +1,11 @@
 document.write(`
 <div class="show-contact-form"></div>
-<style>#formU{height:0;overflow:hidden;background-color:#f3f3f3;padding:0 20px;border:1px solid #ddd}
+<style>#formU{background-color:#f3f3f3;padding:20px;border:1px solid #ddd}
 .s6{font-size:39px;color:lightgray;cureviewsor:pointer}.s6.s7{color:gold}.s6:hover{cursor:pointer;color:gold}.s8{display:inline-block;direction:rtl}
-#ContactForm2_contact-form-submit{height:auto;font-size:120%;max-width:90%;padding:12px;width:464px}
+#ContactForm2{height:0;overflow:hidden}#ContactForm2_contact-form-submit{height:auto;font-size:120%;max-width:90%;padding:12px;width:464px}
 </style>
 <div id="formU">
+<hr />
 <div style="margin: 30px auto; max-width: 440px;">
 <h2>Form Ulasan</h2>
 <form id="rF6" onsubmit="return sR6();">
@@ -27,4 +28,4 @@ document.write(`
 <div id="kirim2"></div>
 </div></div>
 `);
-document.getElementById("rD").value=new Date().toLocaleDateString();let ratingValue=0;const s6=document.querySelectorAll(".s6");s6.forEach(star=>{star.addEventListener("click",function(){ratingValue=this.getAttribute("d6");updates6(ratingValue)}),star.addEventListener("mouseover",function(){const value=this.getAttribute("d6");updates6(value)}),star.addEventListener("mouseout",function(){updates6(ratingValue)})});function updates6(value){s6.forEach(star=>{star.getAttribute("d6")<=value?star.classList.add("s7"):star.classList.remove("s7")})}function sR6(){const name=document.getElementById("name").value,rD=document.getElementById("rD").value,rT8=document.getElementById("rT8").value,currentUrl=window.location.href;if(0===ratingValue)return alert("Silakan pilih rating bintang!"),!1;const message=`Ulasan Baru:\n\nNama: ${name}\nTanggal: ${rD}\nRating: ${ratingValue} Bintang\nUlasan: ${rT8}\nURL Halaman: ${currentUrl}`,phone="6281327707780",whatsappUrl=`https://wa.me/${phone}?text=${encodeURIComponent(message)}`;return window.open(whatsappUrl,"_blank"),!1}
+let RValue=0;document.querySelectorAll('.s6').forEach(star=>{star.addEventListener('click',()=>{RValue=star.getAttribute('d6');updateStars(RValue)});star.addEventListener('mouseenter',()=>updateStars(star.getAttribute('d6')));star.addEventListener('mouseleave',()=>updateStars(RValue))});function updateStars(value){document.querySelectorAll('.s6').forEach(star=>{star.classList.toggle('s7',parseInt(star.getAttribute('d6'))<=value)})}document.getElementById('ContactForm2_contact-form-submit').addEventListener('mouseover',function(){const nameValue=document.getElementById('name').value,rT8Value=document.getElementById('rT8')?document.getElementById('rT8').value:'',currentDate=new Date().toISOString().split('T')[0];document.getElementById('ContactForm2_contact-form-name').value='Ulasan dan Rating';document.getElementById('ContactForm2_contact-form-email').value='jayasteel.com@gmail.com';const newText=`Nama: ${nameValue}\nUlasan: ${rT8Value}\nBintang: ${RValue}\nTanggal: ${currentDate}`;document.getElementById('ContactForm2_contact-form-email-message').value=newText});const button=document.getElementById('ContactForm2_contact-form-submit'),target=document.getElementById('kirim2');if(button&&target){target.appendChild(button)} 
