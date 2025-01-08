@@ -1,4 +1,5 @@
-const reviews = [
+const produk = Wiremesh M6, 
+reviews = [
     {
         nama: "Farhan",
         tanggal: "2024-12-05",
