@@ -1,4 +1,4 @@
-const produk = Wiremesh M6, 
+const produk = "Wiremesh M6", 
 reviews = [
     {
         nama: "Farhan",
