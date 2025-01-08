@@ -1,0 +1,13 @@
+.d,.a{width:200px;}.r{display:flex;justify-content:space-around}
+.c{font-size:80%;max-width:800px;margin:auto;padding:20px;background:#fff;
+border-radius:8px;box-shadow:0 2px 5px rgba(0,0,0,0.1)}
+.s span{font-size:30px;color:lightgray}.s .gold{color:gold}
+.d .bar{gap:12px;display:flex;margin:5px 0}
+.d .bar .bl{flex:1;margin:auto;height:10px;background:#ddd;border-radius:5px}
+.d .bar .bl.gold{background:gold}.d .bar .C{font-weight:bold}
+.reviews .v{padding:10px;border-top:1px solid #ddd}
+.reviews .v:last-child{border-bottom:none}
+.reviews .s .gold{color:gold}.s,.reviews p{margin:0 auto!important}
+.stareviews{font-size:39px;color:lightgray;cursor:pointer}
+.stareviews.selected{color:gold}.stareviews:hover{color:gold}
+.star-rating{display:inline-block;direction:rtl}
