@@ -1,0 +1,27 @@
+const produk = "Besi Beton Ulir 19", 
+reviews = [
+  { 
+    nama: "Hendra", 
+    tanggal: "2024-01-29", 
+    bintang: 5, 
+    ulasan: "Terima kasih ya bos! Saya gunakan untuk proyek pondasi rumah dan hasilnya oke. Kekuatan dan ketahanan besi ini sangat terjamin, serta ukurannya sangat presisi, membuat proses instalasi lebih mudah dan cepat. Saya sangat puas dengan performa produk ini, dan harganya juga sangat kompetitif." 
+  },
+  { 
+    nama: "Siti", 
+    tanggal: "2024-02-05", 
+    bintang: 4, 
+    ulasan: "Produk ini cukup baik, meskipun ada sedikit kerutan pada beberapa batang besi, tetapi tetap dapat digunakan dengan baik. Kualitas keseluruhan masih memadai untuk proyek kami. Pengiriman cepat dan layanan pelanggan juga sangat responsif. Secara keseluruhan, saya merasa puas dengan pembelian ini." 
+  },
+  { 
+    nama: "Arif", 
+    tanggal: "2024-03-12", 
+    bintang: 5, 
+    ulasan: "Besi Beton Ulir 19 ini sangat saya rekomendasikan! untuk pekerjaan konstruksi jembatan, dan hasilnya sangat memuaskan. Dengan harga yang terjangkau, ini menjadi pilihan utama saya." 
+  },
+  { 
+    nama: "Lina", 
+    tanggal: "2024-12-19", 
+    bintang: 4, 
+    ulasan: "Produk besi beton ulir ini cukup bagus. Kekuatan dan presisinya sangat terjaga, namun saya sempat menemukan beberapa batang yang agak berkarat. Meskipun demikian, kualitasnya tetap dapat diandalkan, dan saya sudah menggunakannya dalam beberapa proyek tanpa masalah. Pengemasan dan pengiriman baik." 
+  }
+];
