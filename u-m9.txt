@@ -4,18 +4,18 @@ reviews = [
     nama: "Andi", 
     tanggal: "2024-05-08", 
     bintang: 5, 
-    ulasan: "Wiremesh M9 benar-benar memenuhi ekspektasi saya. Bahannya kokoh, tahan lama, dan memiliki ukuran yang sangat presisi. Saya menggunakannya untuk proyek pengecoran lantai, dan hasilnya sangat memuaskan. Selain itu, pengemasan produk juga sangat rapi sehingga tidak ada kerusakan saat pengiriman. Sangat direkomendasikan untuk siapa pun yang mencari material berkualitas tinggi." 
+    ulasan: "Wiremesh M9 benar-benar memenuhi ekspektasi saya. Bahannya kokoh, tahan lama, dan memiliki ukuran yang sangat presisi. Saya menggunakannya untuk proyek pengecoran lantai, dan hasilnya sangat memuaskan. Selain itu, pengemasan produk juga sangat rapi sehingga tidak ada kerusakan saat pengiriman. Sangat direkomendasikan untuk siapa pun yang mencari material berkualitas." 
   },
   { 
     nama: "Rina", 
     tanggal: "2024-06-09", 
     bintang: 4, 
-    ulasan: "Pengalaman saya dengan Wiremesh M9 cukup baik secara keseluruhan. Produk ini sangat mudah digunakan dan memberikan hasil akhir yang kuat. Namun, saya menemukan beberapa bagian dengan sedikit bengkok di salah satu panel, meskipun tidak mengganggu fungsi utamanya. Pengirimannya cepat dan pelayanannya juga cukup ramah. Secara keseluruhan, kualitasnya sebanding dengan harganya." 
+    ulasan: "Pengirimannya cepat dan pelayanannya juga cukup ramah. Secara keseluruhan, kualitasnya sebanding dengan harganya." 
   },
   { 
     nama: "Joko", 
     tanggal: "2025-01-07", 
     bintang: 5, 
-    ulasan: "Produk Wiremesh M9 ini luar biasa! Saya sudah mencoba berbagai jenis wiremesh sebelumnya, tetapi produk ini terasa lebih unggul. Setiap sambungan terlihat kuat dan tidak ada yang goyah. Ukurannya juga sangat konsisten, sehingga mempermudah instalasi. Proyek pengecoran saya selesai lebih cepat karena material ini sangat mudah diaplikasikan. Ditambah lagi, harganya cukup terjangkau untuk kualitas premium seperti ini." 
+    ulasan: "Produk ini terasa lebih unggul. Setiap sambungan terlihat kuat dan tidak ada yang goyah. Ukurannya juga sangat konsisten, sehingga mempermudah instalasi. Proyek pengecoran saya selesai lebih cepat karena material ini sangat mudah diaplikasikan. Ditambah lagi, harganya cukup terjangkau untuk kualitas premium seperti ini." 
   }
 ];
