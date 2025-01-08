@@ -1,0 +1,38 @@
+const reviews = [
+    {
+        nama: "Farhan",
+        tanggal: "2024-12-05",
+        bintang: 5,
+        ulasan: "Produk wiremesh yang saya terima benar-benar berkualitas. Ketahanannya luar biasa, dan ukurannya sangat presisi. Sangat puas dengan pembelian ini!"
+    },
+    {
+        nama: "Dewi",
+        tanggal: "2024-12-20",
+        bintang: 4,
+        ulasan: "Wiremeshnya sangat bagus dan sesuai dengan deskripsi. Namun, pengiriman sedikit terlambat dari jadwal yang dijanjikan. Secara keseluruhan, pengalaman beli cukup memuaskan."
+    },
+    {
+        nama: "Taufik",
+        tanggal: "2025-01-02",
+        bintang: 5,
+        ulasan: "Harga wiremesh di sini sangat kompetitif, dan kualitasnya sangat baik. Cocok untuk kebutuhan proyek saya. Saya pasti akan kembali membeli di sini lagi."
+    },
+    {
+        nama: "Yuli",
+        tanggal: "2025-01-05",
+        bintang: 4,
+        ulasan: "Kualitas wiremeshnya sangat baik, tetapi mungkin perlu perbaikan dalam hal pengiriman dan penyimpanan. Beberapa bagian terlihat sedikit bengkok saat tiba. Meskipun begitu, fungsinya tetap maksimal."
+    },
+    {
+        nama: "Rahmat",
+        tanggal: "2025-01-06",
+        bintang: 5,
+        ulasan: "Wiremesh yang dipesan sampai dengan sangat cepat dan dalam kondisi sempurna. Ukurannya sangat akurat, dan ketahanannya sangat memuaskan. Layanan pelanggan juga sangat ramah."
+    },
+    {
+        nama: "Nina",
+        tanggal: "2025-01-07",
+        bintang: 4,
+        ulasan: "Produk wiremesh sesuai dengan spesifikasi yang dijelaskan. Proses pembeliannya mudah, tetapi akan lebih baik jika ada opsi pengiriman ekspres. Overall, saya puas dengan layanan ini."
+    }
+];
