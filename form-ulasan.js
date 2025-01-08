@@ -2,7 +2,7 @@ document.write(`
 <style>.s6{font-size:39px;color:lightgray;cureviewsor:pointer}.s6.s7{color:gold}.s6:hover{color:gold}.s8{display:inline-block;direction:rtl}</style>
 <div id="formU">
 <hr />
-<div style="margin: auto; max-width: 440px;">
+<div style="margin: 30px auto; max-width: 440px;">
 <h2>Form Ulasan</h2>
 <form id="rF6" onsubmit="return sR6();">
 <label>Tanggal:</label>
