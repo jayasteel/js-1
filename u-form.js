@@ -1,6 +1,6 @@
 document.write(`
 <div class="show-contact-form"></div>
-<style>#formU{background-color:#f3f3f3;padding:20px;border:1px solid #ddd}
+<style>#formU{height:0;overflow:hidden;background-color:#f3f3f3;transition:height 0.5s ease;border-radius:10px;padding:0 20px;border:1px solid #ddd;}
 .s6{font-size:39px;color:lightgray;cureviewsor:pointer}.s6.s7{color:gold}.s6:hover{cursor:pointer;color:gold}.s8{display:inline-block;direction:rtl}
 #ContactForm2{height:0;overflow:hidden}#ContactForm2_contact-form-submit{cursor:pointer;height:auto;font-size:120%;max-width:90%;padding:12px;width:464px}
 </style>
