@@ -5,7 +5,6 @@ document.write(`
 #ContactForm2{height:0;overflow:hidden}#ContactForm2_contact-form-submit{cursor:pointer;height:auto;font-size:120%;max-width:90%;padding:12px;width:464px}
 </style>
 <div id="formU">
-<hr />
 <div style="margin: 30px auto; max-width: 440px;">
 <h2>Form Ulasan</h2>
 <form id="rF6" onsubmit="return sR6();">
