@@ -1,10 +1,10 @@
 function loadContent() {
   Promise.all([
-    fetch('ulasan.html').then(res => res.text()),
-    fetch('ulasan.css').then(res => res.text())
+    fetch('https://js.jayasteel.com/ulasan.html').then(res => res.text()),
+    fetch('https://js.jayasteel.com/ulasan.css').then(res => res.text())
   ]).then(([html, css]) => {
     // Insert HTML
-    document.getElementById('reviewContainer').innerHTML = html;
+    document.getElementById('reviewCo').innerHTML = html;
 
     // Insert CSS dynamically
     const style = document.createElement('style');
