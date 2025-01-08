@@ -9,7 +9,7 @@ reviews = [
   { 
     nama: "Siti", 
     tanggal: "2024-02-05", 
-    bintang: 4, 
+    bintang: 5, 
     ulasan: "Produk ini cukup baik, meskipun ada sedikit kerutan pada beberapa batang besi, tetapi tetap dapat digunakan dengan baik. Kualitas keseluruhan masih memadai untuk proyek kami. Pengiriman cepat dan layanan pelanggan juga sangat responsif. Secara keseluruhan, saya merasa puas dengan pembelian ini." 
   },
   { 
