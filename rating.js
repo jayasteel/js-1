@@ -10,7 +10,7 @@ const T=reviews.length,D=[0,0,0,0,0,0],R=reviews.reduce((s,v)=>(D[v.bintang]++,s
     "price": hbesi,
     "availability": "https://schema.org/InStock",
     "itemCondition": "https://schema.org/NewCondition",
-    "url": "https://www.jayasteel.com/p/produk-jayasteel.html",
+    "url": window.location.href,
     "seller": {
       "@type": "Organization",
       "name": "Jaya Steel Group"
