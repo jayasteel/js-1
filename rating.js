@@ -3,11 +3,12 @@ document.write(`
 <title>Ulasan dan Rating</title>
 <div class="c"><h3 id="Uu" style="text-align:center">Ulasan : </h3><div class="r"><div class="a"><div style="text-align:center;margin-bottom:0"><div style="margin-bottom:0" class="r1"><span class="g1">&#9733;</span><span class="g1">&#9733;</span><span class="g1">&#9733;</span><span class="g1">&#9733;</span></div><div style="margin-bottom:0" class="r1"><span class="g2">&#9733;</span><span class="g1 h1">&#9733;</span></div></div><p style="text-align:center"><b>Rating:</b> <span id="aR">0</span> / 5</p></div><div class="d"><div class="bar" ds="5"><span>5</span><div class="bl" id="C5"></div><span class="C" id="C5to">0</span></div><div class="bar" ds="4"><span>4</span><div class="bl" id="C4"></div><span class="C" id="C4to">0</span></div><div class="bar" ds="3"><span>3</span><div class="bl" id="C3"></div><span class="C" id="C3to">0</span></div><div class="bar" ds="2"><span>2</span><div class="bl" id="C2"></div><span class="C" id="C2to">0</span></div><div class="bar" ds="1"><span>1</span><div class="bl" id="C1"></div><span class="C" id="C1to">0</span></div></div></div><div class="reviews" id="rC"></div></div>
 `);
+var pT=document.querySelector('.post-title'),hargA=pT&&pT.textContent.includes("Wiremesh")?hwmes:hbesi;
 const T=reviews.length,D=[0,0,0,0,0,0],R=reviews.reduce((s,v)=>(D[v.bintang]++,s+v.bintang),0),aR=(R/T).toFixed(1);document.write('<style>.h1{clip-path:inset(0 '+(5-aR)*100+'% 0 0)}<\/style>');document.getElementById("Uu").innerHTML+=produk;const schema={"@context":"https://schema.org","@type":"Product","name":produk,"brand":{"@type":"Brand","name":"Jayasteel"},"aggregateRating":{"@type":"AggregateRating","ratingValue":aR,"reviewCount":T},"review":reviews.map(v=>({"@type":"Review","author":{"@type":"Person","name":v.nama},"datePublished":v.tanggal,"reviewRating":{"@type":"Rating","ratingValue":v.bintang},"reviewBody":v.ulasan})),
   "offers": {
     "@type": "Offer",
     "priceCurrency": "IDR",
-    "price": hbesi,
+    "price": hargA,
     "availability": "https://schema.org/InStock",
     "itemCondition": "https://schema.org/NewCondition",
     "url": window.location.href,
