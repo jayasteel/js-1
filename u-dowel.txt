@@ -2,5 +2,6 @@ const produk = "Besi Dowel",
 reviews = [
   { nama: "Budi", tanggal: "2024-12-25", bintang: 5, ulasan: "Kualitas besi dowel sangat baik, sangat kuat dan presisi." },
   { nama: "Cici", tanggal: "2025-01-02", bintang: 4, ulasan: "Pengiriman cepat, namun ada sedikit karat di bagian ujung." },
-  { nama: "Doni", tanggal: "2025-01-05", bintang: 4, ulasan: "Besi dowel sesuai harapan, mudah digunakan dalam proyek saya." }
+  { nama: "Doni", tanggal: "2025-01-05", bintang: 4, ulasan: "Besi dowel sesuai harapan, mudah digunakan dalam proyek saya." },
+  { nama: "Diya", tanggal: "2025-01-12", bintang: 5, ulasan: "Terima kasih banyak" }
 ];
