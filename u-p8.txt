@@ -1,0 +1,6 @@
+const produk = "Besi Beton Polos 8", 
+reviews = [
+  { nama: "Andi", tanggal: "2025-01-11", bintang: 5, ulasan: "Besi beton polos 8 sangat kuat dan kokoh, sangat cocok untuk proyek konstruksi " },
+  { nama: "Rina", tanggal: "2025-01-12", bintang: 4, ulasan: "Kualitas bagus, hanya saja pengemasan sedikit kurang rapi sehingga ada beberapa yang sedikit bengkong." },
+  { nama: "Santo", tanggal: "2025-01-12", bintang: 5, ulasan: "Produk besi beton polos 8 ini sangat bagus, sesuai dengan harapan. bagus untuk proyek pembangunan saya. maturnuwun" }
+];
