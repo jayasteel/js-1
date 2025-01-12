@@ -28,4 +28,5 @@ document.write(`
 <style>.toggle-button{padding:10px 20px;background-color:#4CAF50;color:white;border:none;border-radius:5px;font-size:16px;cursor:pointer;transition:height .5s ease,opacity .5s ease}.toggle-button:hover{background-color:#45a049}</style>
 <button class="toggle-button" onclick="toggleForm(this)">Tambahkan Rating / Kirim Ulasan</button> 
 `);
+var sM=document.querySelector('.contact-form-success-message'),target=document.getElementById('kirim3');sM&&target&&target.appendChild(sM);
 function toggleForm(button){const formU=document.getElementById('formU');formU.scrollIntoView({behavior:'smooth'});setTimeout(()=>{formU.style.height=formU.scrollHeight+'px';setTimeout(()=>formU.style.height='auto',500)},500);button.style.height='0';button.style.opacity='0';button.style.pointerEvents='none'}
