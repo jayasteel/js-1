@@ -1,14 +1,14 @@
 const produk = "Wiremesh M4", 
 reviews = [
-  { nama: "Budi", tanggal: "2023-10-01", bintang: 5, ulasan: "Wiremesh M4 sangat kuat dan presisi, ideal untuk proyek konstruksi besar dan kecil" },
-  { nama: "Cici", tanggal: "2023-10-05", bintang: 4, ulasan: "Pengiriman cepat, semoga bisa kerjasama untuk berikutnya" },
-  { nama: "Doni", tanggal: "2023-10-10", bintang: 5, ulasan: "Kualitas wiremesh M4 sangat baik, sesuai dengan spesifikasi yang diharapkan" },
-  { nama: "Diya", tanggal: "2023-10-15", bintang: 4, ulasan: "Bagus, tetapi ada sedikit karat di beberapa titik. Secara keseluruhan sangat memuaskan." },
-  { nama: "Eko", tanggal: "2023-10-20", bintang: 5, ulasan: "Produk wiremesh M4 sangat membantu dalam proyek pembangunan saya, sangat kuat dan mudah dipasang." },
-  { nama: "Fira", tanggal: "2023-10-22", bintang: 4, ulasan: "Kualitas bagus, namun ada beberapa bagian yang sedikit peyok" },
-  { nama: "Giri", tanggal: "2023-10-25", bintang: 5, ulasan: "Sangat puas dengan produk ini, wiremesh M4 sesuai dengan harapan, kokoh dan presisi." },
-  { nama: "Hani", tanggal: "2023-10-28", bintang: 5, ulasan: "Saya sangat merekomendasikan wiremesh untuk proyek pembangunan. Kualitas terbaik" },
-  { nama: "Irma", tanggal: "2023-11-02", bintang: 4, ulasan: "Cukup baik, tapi pengiriman bisa lebih baik agar tidak ada kerusakan pada produk" },
-  { nama: "Joko", tanggal: "2023-11-10", bintang: 5, ulasan: "Wiremesh M4 sangat kokoh dan mudah dipasang. Ini pilihan yang tepat untuk proyek saya" },
-  { nama: "Kiki", tanggal: "2023-11-15", bintang: 5, ulasan: "Produk sangat bagus, tidak ada kerusakan, dan harga sebanding dengan kualitas" }
+  { nama: "Budi", tanggal: "2023-12-01", bintang: 5, ulasan: "Wiremesh M4 sangat kuat dan presisi, ideal untuk proyek konstruksi besar dan kecil" },
+  { nama: "Cici", tanggal: "2023-12-05", bintang: 4, ulasan: "Pengiriman cepat, semoga bisa kerjasama untuk berikutnya" },
+  { nama: "Doni", tanggal: "2024-02-10", bintang: 5, ulasan: "Kualitas wiremesh M4 sangat baik, sesuai dengan spesifikasi yang diharapkan" },
+  { nama: "Diya", tanggal: "2024-04-15", bintang: 4, ulasan: "Bagus, tetapi ada sedikit karat di beberapa titik. Secara keseluruhan sangat memuaskan." },
+  { nama: "Eko", tanggal: "2024-04-20", bintang: 5, ulasan: "Produk wiremesh M4 sangat membantu dalam proyek pembangunan saya, sangat kuat dan mudah dipasang." },
+  { nama: "Fira", tanggal: "2024-08-22", bintang: 4, ulasan: "Kualitas bagus, namun ada beberapa bagian yang sedikit peyok" },
+  { nama: "Giri", tanggal: "2024-08-25", bintang: 5, ulasan: "Sangat puas dengan produk ini, wiremesh M4 sesuai dengan harapan, kokoh dan presisi." },
+  { nama: "Hani", tanggal: "2024-10-28", bintang: 5, ulasan: "Saya sangat merekomendasikan wiremesh untuk proyek pembangunan. Kualitas terbaik" },
+  { nama: "Irma", tanggal: "2024-11-02", bintang: 4, ulasan: "Cukup baik, tapi pengiriman bisa lebih baik agar tidak ada kerusakan pada produk" },
+  { nama: "Joko", tanggal: "2024-11-10", bintang: 5, ulasan: "Wiremesh M4 sangat kokoh dan mudah dipasang. Ini pilihan yang tepat untuk proyek saya" },
+  { nama: "Kiki", tanggal: "2025-01-15", bintang: 5, ulasan: "Produk sangat bagus, tidak ada kerusakan, dan harga sebanding dengan kualitas" }
 ];
