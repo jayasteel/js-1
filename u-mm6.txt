@@ -1,0 +1,10 @@
+const produk = "Wiremesh M6", 
+reviews = [
+  { nama: "Alif", tanggal: "2023-10-05", bintang: 5, ulasan: "Wiremesh M6 sangat kuat dan cocok untuk konstruksi besar. Sangat puas dengan kualitasnya." },
+  { nama: "Bella", tanggal: "2023-10-12", bintang: 4, ulasan: "Kualitas baik, namun sedikit karat pada beberapa bagian. Secara keseluruhan memuaskan" },
+  { nama: "Chandra", tanggal: "2023-10-18", bintang: 5, ulasan: "Produk wiremesh M6 ini sangat kokoh dan presisi, memudahkan dalam pemasangan di proyek saya" },
+  { nama: "Dewi", tanggal: "2023-10-22", bintang: 5, ulasan: "jarak dan lasan sangat bagus" },
+  { nama: "Eka", tanggal: "2023-10-25", bintang: 4, ulasan: "Pengiriman cepat dan kualitas wiremesh M6 sangat baik, namun ada sedikit penyok pada ujungnya" },
+  { nama: "Faisal", tanggal: "2023-11-28", bintang: 5, ulasan: "Kokoh dan sangat sesuai dengan kebutuhan proyek konstruksi saya, sangat direkomendasikan" },
+  { nama: "Gita", tanggal: "2023-12-01", bintang: 4, ulasan: "Bagus dan sesuai dengan ekspektasi, oke" }
+];
