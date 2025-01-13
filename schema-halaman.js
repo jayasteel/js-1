@@ -1,5 +1,6 @@
 var post = document.querySelector('.post'),
-    publikasi=document.querySelector('#publikasi')?.textContent.trim() || document.lastModified,
+    publikasi=new Date(document.querySelector('#publikasi').textContent.trim()).toISOString().replace('Z', '+07:00'),
+    modif=new Date(document.lastModified).toISOString().replace('Z', '+07:00'),
     penulis=document.querySelector('#penulis')?.textContent.trim() || "Jayasteel",
     tentang=document.querySelector('#tentang')?.textContent.trim() || "Jayasteel",
     judul = document.querySelector('.post-title')?.textContent.trim() || "Info Wiremesh, Besi Beton Terpercaya serta Bahan Konstruksi",
@@ -8,6 +9,7 @@ var post = document.querySelector('.post'),
     wordCount = post ? post.textContent.trim().split(/\s+/).length : 0,
       firstImage = post?.querySelector('img')?.src || "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyCMQbkfiJ3LGCblA2lPHZhtepjJ4Xtmk769HDQDmP-My7aVFQq-pcqFKGj1aWf256yNFTllK55rJdML_bM8NucqWzVHZ56RzMBAjb5dDmxjFVmoJ47JSK98TC0LKa2B0QaQZFjw0_h56raCwn5TB-BQK9ADQGZCAXX93Ka_PsX8fqhOja0qUMTP70/s456/logo%20jaya%20steel%20group%20jayasteel.com%20b%20.png",
     keywords = [...new Set((judul + " " + deskripsi).toLowerCase().split(/\s+/))].join(", ");
+  document.querySelector('#modif').textContent = modif;
 
 var schemaData = {
   "@context": "https://schema.org",
@@ -37,7 +39,7 @@ var schemaData = {
     }
   },
   "datePublished": publikasi,
-  "dateModified": document.lastModified,
+  "dateModified": modif,
   "keywords": keywords,
   "wordCount": wordCount,
   "articleBody": paragraf
