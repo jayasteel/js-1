@@ -15,7 +15,8 @@ const T=reviews.length,D=[0,0,0,0,0,0],R=reviews.reduce((s,v)=>(D[v.bintang]++,s
     "seller": {
       "@type": "Organization",
       "name": "Jaya Steel Group"
-    }
+    },
+    "priceValidUntil": new Date(Date.now()+6912e5).toISOString().split('T')[0]
   }
 },script=document.createElement("script");script.type="application/ld+json";script.textContent=JSON.stringify(schema),document.head.appendChild(script),document.getElementById("aR").textContent=aR;for(let i=1;i<=5;i++){const b=document.getElementById(`C${i}`);b.style.width=`${(D[i]/T)*100}%`,D[i]>0&&b.classList.add("gold"),document.getElementById(`C${i}to`).textContent=D[i]}const rC=document.getElementById("rC");reviews.forEach(v=>{const rD=document.createElement("div");rD.classList.add("v");const sHtml=Array.from({length:5},(_,i)=>`<span class="${i<v.bintang?"gold":""}">&#9733;</span>`).join("");rD.innerHTML=`<div class="s">${sHtml}</div><p><strong>${v.nama}</strong> - ${v.tanggal}</p><p>${v.ulasan}</p>`,rC.appendChild(rD)}); 
 
