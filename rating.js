@@ -10,56 +10,9 @@ for(let i=1;i<=5;i++){const b=document.getElementById(`C${i}`);b.style.width=`${
 document.write(`
 <div class="show-contact-form"></div>
 <style>#formU{height:0;overflow:hidden;background-color:#f3f3f3;transition:height 0.5s ease;border-radius:10px;padding:0 20px;border:1px solid #ddd;}.s6{font-size:39px;color:lightgray;cursor:pointer}.s6.s7{color:gold}.s6:hover{cursor:pointer;color:gold}.s8{display:inline-block;direction:rtl}#ContactForm2{height:0;overflow:hidden}#ContactForm2_contact-form-submit{cursor:pointer;height:auto;font-size:120%;max-width:90%;padding:12px;width:464px}</style>
-<div id="formU"><div style="margin:30px auto;max-width:440px;"><h2 id="U9">Form Ulasan </h2><form id="rF6" onsubmit="return sR6();"><label>Tanggal:</label><input id="rD" name="rD" style="background-color:transparent;border-width:0px;" type="text" value="" /><br /><label>Nama:</label><input id="name" name="name" required="" style="color:#003079;font-size:100%;max-width:90%;padding:12px;width:380px;" type="text" /><br /><br /><label>Pilih Bintang:</label><div class="s8"><span class="s6" d6="5">★</span><span class="s6" d6="4">★</span><span class="s6" d6="3">★</span><span class="s6" d6="2">★</span><span class="s6" d6="1">★</span></div><br /><label>Teks Ulasan:</label><br /><textarea id="rT8" name="rT8" required="" rows="4" style="color:#003079;font-size:100%;max-width:90%;padding:12px;width:464px;"></textarea><br /></form><br /><div style="height:150px" id="kirim2"><input class="contact-form-button contact-form-button-submit" type="button" value="- Kirim ke Email -"></div><div id="kirim3"></div></div></div>
+<div id="formU"><div style="margin:30px auto;max-width:440px;"><h2 id="U9">Form Ulasan </h2><form id="rF6" onsubmit="return sR6();"><label>Tanggal:</label><input id="rD" name="rD" style="background-color:transparent;border-width:0px;" type="text" value="" /><br /><label>Nama:</label><input id="name" name="name" required="" style="color:#003079;font-size:100%;max-width:90%;padding:12px;width:380px;" type="text" /><br /><br /><label>Pilih Bintang:</label><div class="s8"><span class="s6" d6="5">★</span><span class="s6" d6="4">★</span><span class="s6" d6="3">★</span><span class="s6" d6="2">★</span><span class="s6" d6="1">★</span></div><br /><label>Teks Ulasan:</label><br /><textarea id="rT8" name="rT8" required="" rows="4" style="color:#003079;font-size:100%;max-width:90%;padding:12px;width:464px;"></textarea><br /></form><br /><div id="kirim2"></div><div id="kirim3"></div></div></div>
 `);
-// Simpan elemen yang akan dimanipulasi
-const kirim2 = document.getElementById('kirim2');
-const contactFormSubmit = document.getElementById('ContactForm2_contact-form-submit');
-
-// Pastikan elemen ada sebelum melanjutkan
-if (kirim2 && contactFormSubmit) {
-    // Simpan isi asli #kirim2
-    const originalContent = kirim2.innerHTML;
-
-    // Tambahkan event listener saat hover
-    kirim2.addEventListener('mouseover', function () {
-        // Saat hover, ganti isi #kirim2 dengan isi #ContactForm2_contact-form-submit
-        kirim2.innerHTML = contactFormSubmit.innerHTML;
-    });
-
-    // Tambahkan event listener saat keluar dari hover
-    kirim2.addEventListener('mouseout', function () {
-        // Saat tidak lagi hover, kembalikan isi asli #kirim2
-        kirim2.innerHTML = originalContent;
-    });
-}
-
-// Bagian kode lain tetap sama
-document.getElementById("U9").innerHTML += produk;
-document.getElementById("rD").value = new Date().toLocaleDateString();
-
-let RValue = 0;
-document.querySelectorAll('.s6').forEach(star => {
-    star.addEventListener('click', () => {
-        RValue = star.getAttribute('d6');
-        updateStars(RValue);
-    });
-    star.addEventListener('mouseenter', () => updateStars(star.getAttribute('d6')));
-    star.addEventListener('mouseleave', () => updateStars(RValue));
-});
-
-function updateStars(value) {
-    document.querySelectorAll('.s6').forEach(star => {
-        star.classList.toggle('s7', parseInt(star.getAttribute('d6')) <= value);
-    });
-}
-
-document.getElementById('kirim2').addEventListener('mouseover', function () {
-    document.getElementById('ContactForm2_contact-form-name').value = 'Ulasan dan Rating';
-    document.getElementById('ContactForm2_contact-form-email').value = 'jayasteel.com@gmail.com';
-    document.getElementById('ContactForm2_contact-form-email-message').value = `Nama: ${document.getElementById('name').value}\nUlasan: ${document.getElementById('rT8')?.value || ''}\nBintang: ${RValue}\nTanggal: ${new Date().toISOString().split('T')[0]}\nUrl: ${window.location.href}`;
-});
-
+document.getElementById("U9").innerHTML+=produk;document.getElementById("rD").value=new Date().toLocaleDateString();let RValue=0;document.querySelectorAll('.s6').forEach(star=>{star.addEventListener('click',()=>{RValue=star.getAttribute('d6');updateStars(RValue)});star.addEventListener('mouseenter',()=>updateStars(star.getAttribute('d6')));star.addEventListener('mouseleave',()=>updateStars(RValue))});function updateStars(value){document.querySelectorAll('.s6').forEach(star=>{star.classList.toggle('s7',parseInt(star.getAttribute('d6'))<=value)})}document.getElementById('kirim2').addEventListener('mouseover',function(){document.getElementById('ContactForm2_contact-form-name').value='Ulasan dan Rating';document.getElementById('ContactForm2_contact-form-email').value='jayasteel.com@gmail.com';document.getElementById('ContactForm2_contact-form-email-message').value=`Nama: ${document.getElementById('name').value}\nUlasan: ${document.getElementById('rT8')?.value||''}\nBintang: ${RValue}\nTanggal: ${new Date().toISOString().split('T')[0]}\nUrl: ${window.location.href}`});if(document.getElementById('ContactForm2_contact-form-submit')&&document.getElementById('kirim2')){document.getElementById('kirim2').appendChild(document.getElementById('ContactForm2_contact-form-submit'))}
 document.write(`
 <style>.toggle-button{padding:10px 20px;background-color:#4CAF50;color:white;border:none;border-radius:5px;font-size:16px;cursor:pointer;transition:height .5s ease,opacity .5s ease}.toggle-button:hover{background-color:#45a049}</style>
 <button class="toggle-button" onclick="toggleForm(this)">Tambahkan Rating / Kirim Ulasan</button> 
