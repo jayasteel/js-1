@@ -4,12 +4,12 @@ reviews = [
     nama: "Budi", 
     tanggal: "2025-01-18", 
     bintang: 5, 
-    ulasan: "Produk ini benar-benar memenuhi ekspektasi saya. Besi beton polos 12x12 sangat kokoh dan sempurna untuk struktur bangunan besar." 
+    ulasan: "Produk ini benar-benar memenuhi ekspektasi saya. Besi beton polos 12 sangat pas dan sempurna untuk struktur bangunan besar." 
   },
   { 
     nama: "Sari", 
-    tanggal: "2025-01-17", 
+    tanggal: "2025-01-19", 
     bintang: 4, 
-    ulasan: "Besi beton polos 12x12 berkualitas tinggi. Hanya saja, pengiriman sedikit terlambat dari jadwal yang dijanjikan." 
+    ulasan: "Besi beton polos berkualitas . Hanya saja, pengiriman sedikit terlambat." 
   }
 ];
