@@ -8,5 +8,6 @@ reviews = [
   { nama: "Fira", tanggal: "2024-01-20", bintang: 4, ulasan: "Pengiriman cepat, namun ada sedikit kerusakan pada salah satu gulungan kawat bendrat" },
   { nama: "Ganda", tanggal: "2024-02-01", bintang: 5, ulasan: "Memiliki ketahanan yang luar biasa, cocok untuk berbagai proyek konstruksi yang membutuhkan kekuatan lebih" },
   { nama: "Hani", tanggal: "2024-12-15", bintang: 4, ulasan: "Kualitas baik, hanya saja harga sedikit lebih tinggi dibandingkan dengan produk serupa" },
-  { nama: "Iwan", tanggal: "2025-01-05", bintang: 5, ulasan: "Sangat puas dengan kawat bendrat ini, kualitas dan harganya sebanding, sangat direkomendasikan" }
+  { nama: "Iwan", tanggal: "2025-01-05", bintang: 5, ulasan: "Sangat puas dengan kawat bendrat ini, kualitas dan harganya sebanding, sangat direkomendasikan" },
+{ nama: "Rina", tanggal: "2025-01-25", bintang: 5, ulasan: "Besi beton yang saya beli bagus. Harga juga terjangkau, cocok untuk proyek besar maupun kecil. Sangat puas dan akan beli lagi!" }
 ];
