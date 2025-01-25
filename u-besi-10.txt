@@ -1,4 +1,5 @@
 const reviews = [
   { nama: "Yusuf", tanggal: "2025-01-08", bintang: 5, ulasan: "Kualitas sangat memuaskan, rekomendasi untuk proyek besar." },
-  { nama: "Nina", tanggal: "2024-12-08", bintang: 4, ulasan: "Produk cukup baik, tetapi perlu peningkatan layanan pengiriman." }
+  { nama: "Nina", tanggal: "2024-12-08", bintang: 4, ulasan: "Produk cukup baik, tetapi perlu peningkatan layanan pengiriman." },
+{ nama: "Andi", tanggal: "2025-01-25", bintang: 5, ulasan: "Produk ini sangat kuat dan presisi, sesuai dengan kebutuhan konstruksi saya. Pengiriman juga cepat dan rapi. Sangat direkomendasikan!" }
 ];
