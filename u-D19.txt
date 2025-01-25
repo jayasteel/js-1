@@ -23,5 +23,12 @@ reviews = [
     tanggal: "2024-12-19", 
     bintang: 4, 
     ulasan: "Produk besi beton ulir ini cukup bagus. Kekuatan dan presisinya sangat terjaga, namun saya sempat menemukan beberapa batang yang agak berkarat. Meskipun demikian, kualitasnya tetap dapat diandalkan, dan saya sudah menggunakannya dalam beberapa proyek tanpa masalah. Pengemasan dan pengiriman baik." 
+  },
+  { 
+    nama: "Edin", 
+    tanggal: "2025-01-25", 
+    bintang: 5, 
+    ulasan: "Besi beton ini sangat kokoh dan berkualitas —pilihan sempurna untuk konstruksi yang aman dan terpercaya!" 
   }
+
 ];
