@@ -11,5 +11,6 @@ reviews = [
     tanggal: "2025-01-19", 
     bintang: 4, 
     ulasan: "Besi beton polos berkualitas . Hanya saja, pengiriman sedikit terlambat." 
-  }
+  },
+{ nama: "Rizal", tanggal: "2025-01-25", bintang: 5, ulasan: "kuat dan presisi, pengiriman tepat waktu, sangat memuaskan." }
 ];
