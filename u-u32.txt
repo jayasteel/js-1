@@ -1,0 +1,7 @@
+const produk = "Besi Beton Ulir 32mm",
+reviews = [
+  { nama: "Budi", tanggal: "2025-01-20", bintang: 5, ulasan: "" },
+  { nama: "Sari", tanggal: "2025-01-25", bintang: 5, ulasan: "Kualitasnya bagus, tapi pengiriman sedikit terlambat. Namun, secara keseluruhan sangat memuaskan." },
+  { nama: "Dedi", tanggal: "2025-02-01", bintang: 5, ulasan: "Produk bagus. Cocok untuk proyek gedung" },
+  { nama: "Lina", tanggal: "2025-02-03", bintang: 4, ulasan: "Harga cukup bersaing dengan kualitas yang baik. Hanya saja ada sedikit karat di beberapa batang" }
+];
