@@ -3,7 +3,45 @@ document.write(`
 <title>Ulasan dan Rating</title>
 <div class="c"><h3 id="Uu" style="text-align:center">Ulasan : </h3><div class="r"><div class="a"><div style="text-align:center;margin-bottom:0"><div style="margin-bottom:0" class="r1"><span class="g1">&#9733;</span><span class="g1">&#9733;</span><span class="g1">&#9733;</span><span class="g1">&#9733;</span></div><div style="margin-bottom:0" class="r1"><span class="g2">&#9733;</span><span class="g1 h1">&#9733;</span></div></div><p style="text-align:center"><b>Rating:</b> <span id="aR">0</span> / 5</p></div><div class="d"><div class="bar" ds="5"><span>5</span><div class="bl" id="C5"></div><span class="C" id="C5to">0</span></div><div class="bar" ds="4"><span>4</span><div class="bl" id="C4"></div><span class="C" id="C4to">0</span></div><div class="bar" ds="3"><span>3</span><div class="bl" id="C3"></div><span class="C" id="C3to">0</span></div><div class="bar" ds="2"><span>2</span><div class="bl" id="C2"></div><span class="C" id="C2to">0</span></div><div class="bar" ds="1"><span>1</span><div class="bl" id="C1"></div><span class="C" id="C1to">0</span></div></div></div><div class="reviews" id="rC"></div></div>
 `);
-var pT=document.querySelector('.post-title'),hargA=pT&&pT.textContent.includes("Wiremesh")?hwmes:hbesi;const T=reviews.length,D=[0,0,0,0,0,0],R=reviews.reduce((s,v)=>(D[v.bintang]++,s+v.bintang),0),aR=(R/T).toFixed(1);document.write(`<style>.h1{clip-path:inset(0 ${(5-aR)*100}% 0 0)}</style>`);document.getElementById("Uu").innerHTML+=produk;const post=document.querySelector('.post'),image=post?.querySelector('img')?.src||"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyCMQbkfiJ3LGCblA2lPHZhtepjJ4Xtmk769HDQDmP-My7aVFQq-pcqFKGj1aWf256yNFTllK55rJdML_bM8NucqWzVHZ56RzMBAjb5dDmxjFVmoJ47JSK98TC0LKa2B0QaQZFjw0_h56raCwn5TB-BQK9ADQGZCAXX93Ka_PsX8fqhOja0qUMTP70/s456/logo%20jaya%20steel%20group%20jayasteel.com%20b%20.png",description=post?.querySelector('[itemprop="description"]')?.textContent||"Inilah produk dari Jayasteel untuk Anda dan pelanggan Anda. Proyek lancar dan aman dengan material yang terpercaya.",schema={"@context":"https://schema.org","@type":"Product","name":produk,"image":image,"description":description,"brand":{"@type":"Brand","name":"Jayasteel"},"aggregateRating":{"@type":"AggregateRating","ratingValue":aR,"reviewCount":T},"review":reviews.map(v=>({"@type":"Review","author":{"@type":"Person","name":v.nama},"datePublished":v.tanggal,"reviewRating":{"@type":"Rating","ratingValue":v.bintang},"reviewBody":v.ulasan})),"offers":{"@type":"Offer","priceCurrency":"IDR","price":hargA,"availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition","url":window.location.href,"priceValidUntil":new Date(Date.now()+6912e5).toISOString().split('T')[0]}};
+var pT=document.querySelector('.post-title'),hargA=pT&&pT.textContent.includes("Wiremesh")?hwmes:hbesi;const T=reviews.length,D=[0,0,0,0,0,0],R=reviews.reduce((s,v)=>(D[v.bintang]++,s+v.bintang),0),aR=(R/T).toFixed(1);document.write(`<style>.h1{clip-path:inset(0 ${(5-aR)*100}% 0 0)}</style>`);document.getElementById("Uu").innerHTML+=produk;const post=document.querySelector('.post'),image=post?.querySelector('img')?.src||"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyCMQbkfiJ3LGCblA2lPHZhtepjJ4Xtmk769HDQDmP-My7aVFQq-pcqFKGj1aWf256yNFTllK55rJdML_bM8NucqWzVHZ56RzMBAjb5dDmxjFVmoJ47JSK98TC0LKa2B0QaQZFjw0_h56raCwn5TB-BQK9ADQGZCAXX93Ka_PsX8fqhOja0qUMTP70/s456/logo%20jaya%20steel%20group%20jayasteel.com%20b%20.png",description=post?.querySelector('[itemprop="description"]')?.textContent||"Inilah produk dari Jayasteel untuk Anda dan pelanggan Anda. Proyek lancar dan aman dengan material yang terpercaya.",
+schema = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": produk,
+  "image": image,
+  "description": description,
+  "brand": {
+    "@type": "Brand",
+    "name": "Jayasteel"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": aR,
+    "reviewCount": T
+  },
+  "review": reviews.map(v => ({
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": v.nama
+    },
+    "datePublished": v.tanggal,
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": v.bintang
+    },
+    "reviewBody": v.ulasan
+  })),
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "IDR",
+    "price": hargA,
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": window.location.href,
+    "priceValidUntil": new Date(Date.now() + 6912e5).toISOString().split('T')[0]
+  }
+};
 const script=document.createElement("script");script.type="application/ld+json",script.textContent=JSON.stringify(schema),document.head.appendChild(script),document.getElementById("aR").textContent=aR;
 for(let i=1;i<=5;i++){const b=document.getElementById(`C${i}`);b.style.width=`${(D[i]/T)*100}%`,D[i]>0&&b.classList.add("gold"),document.getElementById(`C${i}to`).textContent=D[i]}const rC=document.getElementById("rC");reviews.forEach(v=>{const rD=document.createElement("div");rD.classList.add("v");const sHtml=Array.from({length:5},(_,i)=>`<span class="${i<v.bintang?"gold":""}">&#9733;</span>`).join("");rD.innerHTML=`<div class="s">${sHtml}</div><p><strong>${v.nama}</strong> - ${v.tanggal}</p><p>${v.ulasan}</p>`,rC.appendChild(rD)}); 
 
