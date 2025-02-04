@@ -1,0 +1,6 @@
+const produk = "Besi Beton 16mm",
+reviews = [
+  { nama: "Budi", tanggal: "2024-03-15", bintang: 5, ulasan: "Besi beton 16mm sesuai standar SNI. Cocok untuk proyek bangunan bertingkat." },
+  { nama: "Sari", tanggal: "2024-07-22", bintang: 4, ulasan: "" },
+  { nama: "Joko", tanggal: "2024-11-05", bintang: 5, ulasan: "Sangat puas dengan ketebalan dan kekuatan besi beton 16mm ini. Sudah diuji dan hasilnya memuaskan!" }
+];
