@@ -1,0 +1,2 @@
+<p><strong>Harga Kompetitif untuk Material Konstruksi yang Handal</strong>
+Jayasteel memahami pentingnya pengelolaan anggaran proyek secara efisien. Oleh karena itu, kami menawarkan harga yang kompetitif untuk wiremesh dan besi beton, termasuk besi beton polos dan ulir, serta wiremesh dengan tipe M4 hingga M12. Dengan komitmen terhadap transparansi harga, kami membantu Anda mendapatkan material berkualitas terbaik tanpa mengorbankan anggaran. Jadikan Jayasteel pilihan utama Anda untuk kebutuhan konstruksi yang andal dan hemat biaya.</p>
