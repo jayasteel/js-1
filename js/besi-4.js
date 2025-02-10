@@ -1,0 +1,2 @@
+<p>Berapa berat <b>besi beton</b> dengan diameter 8 mm?<br />
+Jika Anda ingin mengetahui berat besi beton dengan ukuran 8 mm, maka jawabannya adalah sekitar 4,73 kg. Berat ini bisa dihitung menggunakan rumus berikut: 8 x 8 x 12 x 0,006165 = 4.73472. Setelah dibulatkan, beratnya adalah sekitar 4,73 kg. Perhitungan ini penting untuk memastikan material yang digunakan sesuai dengan kebutuhan proyek konstruksi Anda.</p>
