@@ -1,0 +1,2 @@
+<p>Tahukah Anda berapa berat <b>besi beton</b> berdiameter 19 mm?<br />
+Jika Anda membutuhkan informasi mengenai berat besi beton diameter 19 mm, maka jawabannya adalah sekitar 26,71 kg. Perhitungannya bisa dilakukan menggunakan rumus berikut: 19 x 19 x 12 x 0,006165 = 28.16626. Setelah dibulatkan, beratnya adalah sekitar 26,71 kg. Pastikan Anda menghitung kebutuhan besi beton dengan tepat agar tidak terjadi kekurangan material di proyek Anda.</p>
