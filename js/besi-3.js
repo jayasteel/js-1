@@ -1,0 +1,2 @@
+<p>Apakah Anda ingin mengetahui berat <b>besi beton</b> berukuran 6 mm?<br />
+Besi beton dengan diameter 6 mm memiliki berat sekitar 2,66 kg. Anda bisa mengeceknya di tabel berat besi beton atau menghitung sendiri dengan rumus berikut: 6 x 6 x 12 x 0,006165 = 2.66328. Setelah dibulatkan, beratnya adalah sekitar 2,66 kg. Dengan informasi ini, Anda dapat memperkirakan kebutuhan besi dengan lebih akurat.</p>
