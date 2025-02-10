@@ -1,0 +1,2 @@
+<p>Apakah Anda penasaran dengan berat <b>besi beton</b> ukuran 12 SNI?<br />
+Besi beton dengan diameter 12 mm memiliki berat sekitar 10,65 kg. Anda bisa mengeceknya dalam tabel berat besi beton atau menghitungnya menggunakan rumus sederhana: 12 x 12 x 12 x 0,006165 = 10.65312. Setelah dibulatkan, beratnya adalah sekitar 10,65 kg. Dengan informasi ini, Anda bisa lebih mudah memperkirakan kebutuhan material konstruksi Anda.</p>
