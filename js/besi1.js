@@ -1,0 +1,2 @@
+<p>Apakah Anda ingin mengetahui berat <b>besi beton</b> ukuran 10 SNI?<br />
+Jika Anda mencari informasi tentang berat besi beton dengan diameter 10 mm, maka jawabannya adalah sekitar 7,74 kg. Informasi ini bisa ditemukan dalam tabel berat besi beton. Namun, Anda juga bisa menghitungnya dengan rumus sederhana berikut: 10 x 10 x 12 x 0,006165 = 7.398. Setelah dibulatkan, beratnya adalah sekitar 7,74 kg.</p>
