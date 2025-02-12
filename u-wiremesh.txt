@@ -1,0 +1,9 @@
+const produk = "Wiremesh", 
+reviews = [
+  { nama: "Ahmad", tanggal: "2025-01-07", bintang: 5, ulasan: "Produk wiremesh sangat berkualitas, dan pengirimannya cepat. Sangat puas!" },
+            { nama: "Siti", tanggal: "2025-01-06", bintang: 4, ulasan: "bagus, tetapi pengiriman sedikit terlambat. Secara keseluruhan memuaskan." },
+            { nama: "Budi", tanggal: "2025-01-05", bintang: 5, ulasan: "Harga bersaing dan kualitas baik. Cocok untuk proyek konstruksi saya." },
+            { nama: "Rina", tanggal: "2025-01-04", bintang: 5, ulasan: "Kualitas besi cukup baik, tetapi ada yang kurang " },
+            { nama: "Andi", tanggal: "2025-01-03", bintang: 4, ulasan: "Produk sesuai dengan deskripsi dan kualitasnya oke. Pengemasan juga aman" },
+            { nama: "Lia", tanggal: "2025-01-02", bintang: 5, ulasan: "Pelayanan sangat ramah, dan sampai tepat waktu dengan kualitas ok!" }
+];
