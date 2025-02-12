@@ -20,7 +20,7 @@ document.head.insertAdjacentHTML('beforeend', `<style>
       `;
     });
   }
-document.getElementById("ula").insertAdjacentHTML('beforeend', `
+document.write(`
 <ul class="n6"></ul>
 <div class="p3"><script src="https://www.jayasteel.com/feeds/posts/summary?max-results=2&amp;alt=json&amp;callback=pf"></' + 'script></div>
-`;
+`);
