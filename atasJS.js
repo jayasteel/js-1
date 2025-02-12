@@ -1,5 +1,4 @@
-document.write(`
-<style>
+document.head.insertAdjacentHTML('beforeend', `<style>
 .n6{padding-left:0;float:left;list-style:none;width:100%}
 .n6 li{transition: font-size .5s ease;position:relative;padding:10px;width:200px;float:left}
 .n6 li:hover{font-size:0}
@@ -7,9 +6,7 @@ document.write(`
 .n6 img:hover{transform:scale(1.05);}
 .n6 strong {position:absolute;font-weight: bold;color:#fff;text-shadow: 2px 2px 4px #000;padding:22px;top:0;left:0}
 @media (min-width:1280px){.n6{width:250px;float:none}}
-</style>
-<ul class="n6"></ul>
-`);
+</style>`;
   function pf(j) {
     const ul = document.querySelector('.n6');
     j.feed.entry.slice(0, 2).forEach(({ title, link, summary, media$thumbnail }) => {
@@ -23,4 +20,7 @@ document.write(`
       `;
     });
   }
-document.write('<div class="p3"><script src="https://www.jayasteel.com/feeds/posts/summary?max-results=2&amp;alt=json&amp;callback=pf"></' + 'script></div>');
+document.getElementById("ula").insertAdjacentHTML('beforeend', `
+<ul class="n6"></ul>
+<div class="p3"><script src="https://www.jayasteel.com/feeds/posts/summary?max-results=2&amp;alt=json&amp;callback=pf"></' + 'script></div>
+`;
