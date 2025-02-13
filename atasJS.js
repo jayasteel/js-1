@@ -13,4 +13,4 @@ document.getElementById("u5").innerHTML = "<style>.n6{padding-left:0;float:left;
     });
   }
 document.getElementById("u5").insertAdjacentHTML("afterend",
-"<div class='p3'><script src="https://www.jayasteel.com/feeds/posts/summary?max-results=2&amp;alt=json&amp;callback=pf"></" + "script></div>";
+"<div class='p3'><script src='https://www.jayasteel.com/feeds/posts/summary?max-results=2&amp;alt=json&amp;callback=pf'></" + "script></div>";
