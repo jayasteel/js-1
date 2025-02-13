@@ -11,7 +11,7 @@ function pf(j) {
       `;
     });
 }
-document.getElementById("u5").innerHTML = `
+document.write(`
 <style>
 .n6{padding-left:0;float:left;list-style:none;width:100%}
 .n6 li{transition: font-size .5s ease;position:relative;padding:10px;width:200px;float:left}
@@ -23,4 +23,4 @@ document.getElementById("u5").innerHTML = `
 </style>
 <ul class='n6'></ul>
 <div class='p3'><script src='https://www.jayasteel.com/feeds/posts/summary?max-results=2&alt=json&callback=pf'></script></div>
-`;
+`);
