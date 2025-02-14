@@ -35,14 +35,9 @@ se = se + 1;}
 
 function hitu(){
 if (opt.value == 0){je = "Standar"}else{je = "OverHang"};
-<script>
-    var co = document.createElement('div');
-    co.style.overflowX = 'auto';
-    co.style.whiteSpace = 'nowrap';
-    var script = document.createElement('script');
+  var script = document.createElement('script');
     script.type = 'text/javascript';
-    script.src = 'https://suwur.github.io/js/tabel-wiremesh.js';
-    co.appendChild(script);
-    document.body.appendChild(co);
-</script>
+    script.src = 'https://suwur.github.io/js/tabel-wiremesh.js'; 
+    document.getElementsByTagName('head')[0].appendChild(script);
+    return false;
 }
