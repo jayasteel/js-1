@@ -1,5 +1,5 @@
 var h8 = "Tabel Update daftar Harga BESI BETON semua ukuran. <br />Bulan: <b>"+bul+"</b> Tahun: <b>"+thn+"</b>." (oleh Jayasteel)";
-var h8 += "<style>table{border-collapse:separate;border-spacing:0;border-radius:9px;box-shadow:rgba(0,0,0,0.1) 0 4px 8px;overflow:hidden}th,td{padding:4px;border:1px solid #ddd;text-align:center}th{color:#fff}.ot{color:#000}a{color:#00f}</style>";
+h8 += "<style>table{border-collapse:separate;border-spacing:0;border-radius:9px;box-shadow:rgba(0,0,0,0.1) 0 4px 8px;overflow:hidden}th,td{padding:4px;border:1px solid #ddd;text-align:center}th{color:#fff}.ot{color:#000}a{color:#00f}</style>";
 h8 += "<table class="ot" style="table-layout:fixed;">";
 h8 += "<thead><tr><th>Jenis</th><th colspan="3">Ukuran</th><th>Berat (kg)</th><th>Harga /kg</th><th>Harga /Btg</th><th>Dibulatkan</th></tr></thead>";
 h8 += "<tbody>";
