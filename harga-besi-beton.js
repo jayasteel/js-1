@@ -1,5 +1,5 @@
 document.getElementById("hb").insertAdjacentHTML("afterend",
-"<br><br><div id='bhitung'>Panjang (m) <span id='tra'>___</span>: <input type='text' onmouseout='bhitung()' onchange='bhitung()' id='bpjg' value='12'><br><br>Diameter (mm) : <input type='text' onchange='bhitung()' onmouseout='bhitung()' id='bdia' autofocus='' value='10'><br><br><div><span id='bhasil'><span id='bresult'></span></span></div><br><input type='button' onclick='bhitung()' value=' Hitung '></div><br><style>#bhitung,#bresult,#hasil,#bhitung input[type='text'],#bhitung input[type='button']{font-size:130%;line-height:1.2;font-weight:bold}input[type='text']{max-width:140px}#res{font-size:60%}#tra{color:transparent}.kec{font-size:90%;font-weight:100}</style><span id='subb'></span>");
+"<br><br><div id='bhitung'>Panjang (m) <span id='tra'>___</span>: <input type='text' onmouseout='bhitung()' onchange='bhitung()' id='bpjg' value='12'><br><br>Diameter (mm) : <input type='text' onchange='bhitung()' onmouseout='bhitung()' id='bdia' autofocus='' value='10'><br><br><div><span id='bhasil'><span id='bresult'></span></span></div><br><input type='button' onclick='bhitung()' value=' Hitung '></div><br><style>#bhitung,#bresult,#hasil,#bhitung input[type='text'],#bhitung input[type='button']{font-size:130%;line-height:1.2;font-weight:bold}input[type='text']{max-width:140px}#res{font-size:60%}#tra{color:transparent}.kec{font-size:90%;font-weight:100}</style><span id='subb' style='overflow-x:auto'></span>");
 
 function fR(angka){
 var reverse = angka.toFixed(0).split('').reverse().join(''),
@@ -34,17 +34,9 @@ bberat = bbrt.toFixed(2);
 }
 
 function bhitu(){
-if (window.innerWidth < 800){  
-var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = 'https://js.jayasteel.com/daftar-besi-beton.js'; 
-    document.getElementsByTagName('head')[0].appendChild(script);
-    return false;
-}else{
   var script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = 'https://js.jayasteel.com/tabel-besi-beton.js'; 
     document.getElementsByTagName('head')[0].appendChild(script);
     return false;
-}
 }
