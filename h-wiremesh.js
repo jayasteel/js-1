@@ -41,7 +41,7 @@ if (opt.value == 0){je = "Standar"}else{je = "OverHang"};
     container.style.whiteSpace = 'nowrap';
     var script = document.createElement('script');
     script.type = 'text/javascript';
-    script.src = 'https://suwur.github.io/js/daftar-wiremesh.js';
+    script.src = 'https://suwur.github.io/js/tabel-wiremesh.js';
     container.appendChild(script);
     document.body.appendChild(container);
 </script>
