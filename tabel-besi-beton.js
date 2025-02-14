@@ -3,8 +3,8 @@ h8 += `<style>table{border-collapse:separate;border-spacing:0;border-radius:9px;
 h8 += `<table class='ot' style='table-layout:fixed;'>`;
 h8 += `<thead><tr><th>Jenis</th><th colspan="3">Ukuran</th><th>Berat (kg)</th><th>Harga /kg</th><th>Harga /Btg</th><th>Dibulatkan</th></tr></thead>`;
 h8 += `<tbody>`;
-h8 += `<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>`;
-h8 += `<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>`;
+h8 += `--------------------`;
+h8 += `----------------`;
 h8 += `</tbody></table>`;
 document.getElementById("subb").innerHTML = h8;
 
