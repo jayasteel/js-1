@@ -37,7 +37,7 @@ function hitu(){
 if (opt.value == 0){je = "Standar"}else{je = "OverHang"};
   var script = document.createElement('script');
     script.type = 'text/javascript';
-    script.src = 'https://suwur.github.io/js/tabel-wiremesh.js'; 
+    script.src = 'https://js.jayasteel.com/tabel-wiremesh.js'; 
     document.getElementsByTagName('head')[0].appendChild(script);
     return false;
 }
