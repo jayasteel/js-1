@@ -36,13 +36,13 @@ se = se + 1;}
 function hitu(){
 if (opt.value == 0){je = "Standar"}else{je = "OverHang"};
 <script>
-    var container = document.createElement('div');
-    container.style.overflowX = 'auto';
-    container.style.whiteSpace = 'nowrap';
+    var co = document.createElement('div');
+    co.style.overflowX = 'auto';
+    co.style.whiteSpace = 'nowrap';
     var script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = 'https://suwur.github.io/js/tabel-wiremesh.js';
-    container.appendChild(script);
-    document.body.appendChild(container);
+    co.appendChild(script);
+    document.body.appendChild(co);
 </script>
 }
