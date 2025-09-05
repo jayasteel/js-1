@@ -1,0 +1,1 @@
+<p><strong>Jayasteel: Material Konstruksi Berkualitas</strong></p> <p><b>Jayasteel</b> menyediakan <b><a href="/p/wiremesh.html" target="_blank">wiremesh</a></b>, <b><a href="/p/besi-beton.html" target="_blank">besi beton</a></b>, dan material lain sesuai standar SNI. Produk berkualitas, harga kompetitif, dan pengiriman cepat siap mendukung proyek Anda.</p>
