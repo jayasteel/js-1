@@ -1,0 +1,1 @@
+<p><strong>Jayasteel: Solusi Praktis untuk Proyek Anda</strong></p> <p>Dapatkan <b><a href="/p/wiremesh.html" target="_blank">wiremesh</a></b>, <b><a href="/p/besi-beton.html" target="_blank">besi beton</a></b>, serta material konstruksi lainnya hanya di <b>Jayasteel</b>. Kualitas terjamin, layanan responsif, dan harga bersahabat untuk setiap kebutuhan pembangunan.</p>
