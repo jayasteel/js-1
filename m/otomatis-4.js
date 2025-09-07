@@ -1,0 +1,1 @@
+<p>Pusat desain, pembuatan, dan perbaikan <b>mesin otomatis industri</b> terpercaya di Indonesia.</p>
