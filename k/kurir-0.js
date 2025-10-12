@@ -1,1 +1,2 @@
-Kurir itu bukan cuma pengantar paket, tapi juga pengantar cerita. Dari yang absurd sampai mengharukan, mereka selalu punya kisah yang bikin kita sadar: hidup itu emang gak pernah kehabisan hal lucu untuk ditertawakan. 😄
+// kurir-1.js
+export default `Kurir itu bukan cuma pengantar paket, tapi juga pengantar cerita. Dari yang absurd sampai mengharukan, mereka selalu punya kisah yang bikin kita sadar: hidup itu emang gak pernah kehabisan hal lucu untuk ditertawakan. 😄`;
