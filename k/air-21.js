@@ -1,0 +1,2 @@
+// air-21.js
+export default `Suatu sore kami melaju dari Prigen menuruni bukit, tangki penuh dan radio ngebass. Di jeda lampu merah, sopir cerita soal pelanggan nenek di Mojokerto yang tiap bulan pesan air buat masak obat tradisional. Waktu kami datang, nenek itu bilang, “Anakku, airmu kayak memori rumah dulu.” Kami keluar dari truk, nangis nggak karena sedih, tapi karena hangatnya rasa dihargai.`;
