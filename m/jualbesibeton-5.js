@@ -1,0 +1,1 @@
+<p>Jayasteel memanfaatkan pengalamannya di sektor material konstruksi untuk menghadirkan layanan <b>jual besi beton</b> yang andal dan sesuai standar SNI.</p>

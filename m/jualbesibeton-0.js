@@ -1,0 +1,1 @@
+<p>Berbekal pengalaman panjang di bidang material konstruksi, layanan <b>jual besi beton</b> dari Jayasteel disiapkan untuk menunjang proyek berkualitas tinggi yang memenuhi standar SNI.</p>

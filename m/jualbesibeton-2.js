@@ -1,0 +1,1 @@
+<p>Dengan rekam jejak di sektor konstruksi, Jayasteel mengembangkan layanan <b>jual besi beton</b> yang siap mendukung proyek profesional sesuai ketentuan SNI.</p>

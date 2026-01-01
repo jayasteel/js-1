@@ -1,0 +1,1 @@
+<p>Jayasteel menggabungkan pengalaman industri dan sistem distribusi profesional dalam layanan <b>jual besi beton</b> untuk proyek sesuai SNI.</p>

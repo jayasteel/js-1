@@ -1,0 +1,1 @@
+<p>Jayasteel mengembangkan layanan <b>jual besi beton</b> berdasarkan pengalaman industri demi memenuhi kebutuhan proyek terbaik berstandar SNI.</p>
