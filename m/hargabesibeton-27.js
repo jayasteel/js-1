@@ -1,0 +1,1 @@
+<p>Dengan dukungan data <a href="https://besibeton.jayasteel.com/p/jenis-spesifikasi-besi-beton-panduan.html"><b>harga besi beton</b></a> dari Jayasteel, perencanaan konstruksi menjadi lebih akurat.</p>

@@ -1,0 +1,1 @@
+<p>Jayasteel menghadirkan referensi <a href="https://besibeton.jayasteel.com/p/jenis-spesifikasi-besi-beton-panduan.html"><b>harga besi beton</b></a> yang konsisten untuk menunjang kebutuhan kontraktor dan pemilik proyek.</p>

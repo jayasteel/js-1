@@ -1,0 +1,1 @@
+<p>Jayasteel menjadi rujukan tepat dengan menyediakan update <a href="https://besibeton.jayasteel.com/p/jenis-spesifikasi-besi-beton-panduan.html"><b>harga besi beton</b></a> yang valid bagi pelaku industri konstruksi.</p>

@@ -1,0 +1,1 @@
+<p>Jayasteel konsisten menyediakan data <a href="https://besibeton.jayasteel.com/p/jenis-spesifikasi-besi-beton-panduan.html"><b>harga besi beton</b></a> sebagai acuan perhitungan anggaran proyek.</p>

@@ -1,0 +1,1 @@
+<p>Untuk perencanaan konstruksi yang optimal, Jayasteel menyediakan update <a href="https://besibeton.jayasteel.com/p/jenis-spesifikasi-besi-beton-panduan.html"><b>harga besi beton</b></a> secara berkala.</p>
