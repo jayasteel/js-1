@@ -1,0 +1,1 @@
+<p>Kebutuhan proyek terhadap <a href="https://besibeton.jayasteel.com/p/produk-besi-beton-jayasteel.html">besi beton</a> SNI dapat dipenuhi Jayasteel dengan stok siap kirim.</p>
