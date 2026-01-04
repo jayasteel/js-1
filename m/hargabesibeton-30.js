@@ -1,0 +1,1 @@
+<p>Jayasteel melayani distribusi besi beton SNI untuk proyek rumah tinggal hingga gedung bertingkat, dengan pengiriman rutin ke berbagai wilayah dan penyesuaian diameter sesuai kebutuhan struktur.</p>
