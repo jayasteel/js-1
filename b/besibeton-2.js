@@ -1,0 +1,1 @@
+<p><b>besi beton</b> ulir memiliki sirip pada permukaannya yang meningkatkan daya lekat dengan beton sehingga memberikan kekuatan tarik lebih besar daripada <b>besi beton</b> polos dalam struktur utama bangunan seperti kolom dan balok.</p>

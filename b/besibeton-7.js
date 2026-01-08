@@ -1,0 +1,1 @@
+<p><b>besi beton</b> polos digunakan untuk penguat tulangan non-utama atau sebagai sengkang sementara <b>besi beton</b> ulir sering dipilih untuk struktur utama yang menerima beban tarikan dan lenturan besar.</p>

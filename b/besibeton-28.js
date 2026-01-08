@@ -1,0 +1,1 @@
+<p>Struktur beton bertulang menjadi semakin efisien dan kuat ketika material tulangan seperti <b>besi beton</b> dipilih dengan cermat berdasarkan fungsi dan lokasi struktur yang direncanakan.</p>

@@ -1,0 +1,1 @@
+<p>Fondasi bangunan memperkuat struktur terhadap beban tanah dan beban vertikal sehingga <b>besi beton</b> jenis ulir dengan ukuran lebih besar sering digunakan untuk memastikan fondasi kuat dan stabil.</p>

@@ -1,0 +1,1 @@
+<p>Kombinasi antara beton dan <b>besi beton</b> menciptakan beton bertulang yang banyak digunakan pada berbagai jenis konstruksi termasuk rumah tinggal, ruko, hingga infrastruktur berat seperti jembatan dan gedung tinggi.</p>

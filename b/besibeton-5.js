@@ -1,0 +1,1 @@
+<p>Panjang standar <b>besi beton</b> adalah 12 meter per batang sehingga memudahkan perhitungan kebutuhan material untuk berbagai elemen struktur seperti kolom, balok, dan pelat lantai dalam proyek bangunan bertingkat maupun rumah tinggal.</p>

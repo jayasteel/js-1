@@ -1,0 +1,1 @@
+<p>Kalkulasi kebutuhan <b>besi beton</b> harus dilakukan secara teliti berdasarkan gambar kerja teknis agar jumlah batang dan diameter yang dibutuhkan sesuai dengan kebutuhan struktur yang direncanakan.</p>

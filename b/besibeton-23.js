@@ -1,0 +1,1 @@
+<p>Pemilihan supplier terpercaya seperti Jayasteel memastikan material <b>besi beton</b> yang digunakan dalam proyek berasal dari pabrik yang sah dan memenuhi standar mutu konstruksi yang diperlukan.</p>

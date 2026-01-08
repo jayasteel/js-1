@@ -1,0 +1,1 @@
+<p>Kolom utama struktur bangunan membutuhkan <b>besi beton</b> berulir dengan diameter lebih besar karena kolom menanggung beban vertikal berat dari seluruh bangunan di atasnya.</p>

@@ -1,0 +1,1 @@
+<p>Standar SNI 2052:2017 memastikan bahwa setiap batang <b>besi beton</b> memenuhi persyaratan komposisi kimia, kekuatan tarik minimum, dan toleransi dimensi yang aman untuk konstruksi bangunan.</p>

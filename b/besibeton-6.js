@@ -1,0 +1,1 @@
+<p>Pemasangan <b>besi beton</b> harus mengikuti gambar kerja dan standar teknis agar tulangan tersusun dengan benar sebelum beton dituangkan, memastikan struktur akhir kuat dan sesuai perencanaan.</p>

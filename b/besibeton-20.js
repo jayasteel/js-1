@@ -1,0 +1,1 @@
+<p>Memeriksa sertifikasi SNI dan logo pabrik pada batang <b>besi beton</b> adalah langkah penting untuk memastikan material yang dibeli benar-benar sesuai standar mutu dan tidak hanya sekedar label.</p>

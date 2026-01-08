@@ -1,0 +1,1 @@
+<p>Pemilihan <b>besi beton</b> berkualitas yang memenuhi SNI membantu meminimalkan risiko struktur menjadi kurang kuat akibat baja yang tidak sesuai spesifikasi teknis yang dipersyaratkan oleh perencanaan struktur.</p>

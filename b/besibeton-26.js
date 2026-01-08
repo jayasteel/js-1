@@ -1,0 +1,1 @@
+<p>Penggunaan <b>besi beton</b> yang tepat juga membantu mengurangi biaya perbaikan struktur di kemudian hari karena material yang terpasang sudah sesuai perhitungan teknis sejak awal pembangunan.</p>

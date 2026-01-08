@@ -1,0 +1,1 @@
+<p>Material tulangan yang berkualitas merupakan investasi pada keamanan struktur bangunan karena dapat menahan beban statis dan dinamis dengan lebih baik dibanding material yang tidak memenuhi standar.</p>

@@ -1,0 +1,1 @@
+<p>Pemasangan <b>besi beton</b> melibatkan proses pemotongan, pembengkokan, penyusunan, penyambungan, dan penempatan dalam bekisting sebelum pengecoran dilakukan untuk mencapai hasil yang optimal.</p>

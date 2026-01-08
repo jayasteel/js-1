@@ -1,0 +1,1 @@
+<p>Kesalahan dalam pemilihan diameter atau jenis <b>besi beton</b> dapat berakibat fatal seperti penurunan kekuatan struktur, retak beton, atau bahkan kegagalan struktur saat beban melampaui kapasitas yang dihitung.</p>

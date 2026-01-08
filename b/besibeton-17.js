@@ -1,0 +1,1 @@
+<p>Sengkang atau stirrup dari <b>besi beton</b> polos menjaga posisi tulangan utama dalam kolom dan balok sehingga susunan tulangan tetap stabil selama pengecoran dan penggunaan jangka panjang.</p>

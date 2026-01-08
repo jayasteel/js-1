@@ -1,0 +1,1 @@
+<p><b>besi beton</b> dengan diameter yang tepat disesuaikan dengan fungsi strukturalnya mulai dari Ø6 mm untuk sengkang hingga Ø22 mm atau lebih untuk proyek besar sehingga mendukung beban yang berbeda pada setiap bagian bangunan.</p>

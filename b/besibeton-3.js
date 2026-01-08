@@ -1,0 +1,1 @@
+<p>Penggunaan <b>besi beton</b> yang sesuai standar SNI menjamin kualitas dan kekuatan struktur bangunan karena parameter seperti kekuatan tarik minimum, toleransi diameter, dan kedalaman ulir telah ditetapkan untuk mutu yang aman dan konsisten.</p>

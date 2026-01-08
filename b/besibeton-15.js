@@ -1,0 +1,1 @@
+<p>Pelat lantai membutuhkan susunan <b>besi beton</b> yang baik agar mampu menahan beban hidup seperti manusia, perabot, dan beban dinamis lainnya tanpa mengalami keretakan atau deformasi berlebihan.</p>

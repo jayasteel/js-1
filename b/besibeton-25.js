@@ -1,0 +1,1 @@
+<p><b>besi beton</b> dibuat dari billet baja melalui proses hot rolling dan, pada tipe ulir, ditambahkan sirip untuk meningkatkan daya lekat antara baja dan beton sehingga struktur menjadi lebih kompak dan kuat.</p>

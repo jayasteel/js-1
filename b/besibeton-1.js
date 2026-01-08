@@ -1,0 +1,1 @@
+<p>Tanpa <b>besi beton</b>, beton akan menjadi material yang kuat terhadap tekan tetapi rapuh terhadap tarik sehingga struktur seperti kolom, balok, dan pelat lantai tidak akan mampu menahan beban hidup dan mati secara efektif.</p>

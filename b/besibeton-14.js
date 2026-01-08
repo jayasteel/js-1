@@ -1,0 +1,1 @@
+<p>Balok pada struktur juga membutuhkan <b>besi beton</b> kualitas tinggi karena balok menerima beban dari pelat lantai dan mendistribusikannya ke kolom sehingga perlu daya tarik dan lentur yang kuat.</p>

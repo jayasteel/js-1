@@ -1,0 +1,1 @@
+<p>Salah satu risiko menggunakan <b>besi beton</b> yang tidak berlabel SNI adalah kualitas yang rendah sehingga berat, diameter, dan daya cengkeramnya di bawah standar sehingga struktur berpotensi mengalami kegagalan lebih cepat.</p>
