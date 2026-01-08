@@ -1,0 +1,1 @@
+<p><b>Wiremesh</b> hadir sebagai solusi praktis konstruksi dak beton dengan susunan baja yang presisi sehingga hasil pengecoran lebih rapi, kuat, dan efisien dari segi biaya maupun tenaga.</p>

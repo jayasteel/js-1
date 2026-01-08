@@ -1,0 +1,1 @@
+<p><b>Wiremesh</b> dirancang khusus untuk kebutuhan dak beton agar struktur lebih padat, kokoh, dan tahan terhadap beban jangka panjang.</p>

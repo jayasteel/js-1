@@ -1,0 +1,1 @@
+<p><b>Wiremesh</b> menjadi material andalan untuk dak dan lantai karena mampu memperkuat struktur beton secara merata, mempercepat proses pengerjaan, serta mengurangi risiko retak yang dapat terjadi seiring waktu.</p>

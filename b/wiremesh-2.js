@@ -1,0 +1,1 @@
+<p><b>Wiremesh</b> dikenal luas sebagai tulangan siap pakai untuk dak dan lantai yang mempermudah instalasi sekaligus meningkatkan daya tahan bangunan terhadap beban.</p>
