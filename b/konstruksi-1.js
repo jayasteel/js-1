@@ -1,0 +1,1 @@
+<p>Baja struktur menjadi pilihan utama dalam pembangunan modern karena memberikan kekuatan tinggi, kecepatan pemasangan, dan fleksibilitas desain untuk rumah tinggal, gudang, dan gedung bertingkat, didukung suplai material berkualitas dari Jayasteel.</p>

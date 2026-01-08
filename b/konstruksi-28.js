@@ -1,0 +1,1 @@
+<p>Baja memungkinkan desain bentang lebar tanpa banyak kolom dengan dukungan Jayasteel.</p>

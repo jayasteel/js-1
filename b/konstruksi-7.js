@@ -1,0 +1,1 @@
+<p>Struktur baja cocok untuk rumah tinggal dan bangunan komersial karena kekuatan dan efisiensinya dengan suplai material dari Jayasteel.</p>

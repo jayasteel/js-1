@@ -1,0 +1,1 @@
+<p>Baja struktural banyak digunakan pada rumah, ruko, dan gedung bertingkat dengan dukungan Jayasteel.</p>

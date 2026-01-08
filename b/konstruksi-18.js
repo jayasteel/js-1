@@ -1,0 +1,1 @@
+<p>Konstruksi baja menghasilkan struktur ringan namun kuat dengan distribusi material Jayasteel.</p>

@@ -1,0 +1,1 @@
+<p>Konstruksi baja memungkinkan proses pembangunan lebih cepat karena komponen diproduksi presisi dan mudah dirakit di lapangan dengan ketersediaan material dari Jayasteel.</p>

@@ -1,0 +1,1 @@
+<p>Material baja untuk konstruksi menawarkan kombinasi kekuatan dan kepraktisan yang memungkinkan pembangunan rumah, fasilitas komersial, dan struktur industri lebih rapi dan tahan lama bersama dukungan Jayasteel.</p>

@@ -1,0 +1,1 @@
+<p>Pemilihan baja sebagai struktur utama menghasilkan bangunan kuat dan stabil dengan desain fleksibel serta dukungan distribusi material dari Jayasteel.</p>

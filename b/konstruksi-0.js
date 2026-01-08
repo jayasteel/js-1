@@ -1,0 +1,1 @@
+<p>Konstruksi baja menjadi solusi modern dan efisien untuk berbagai jenis bangunan karena menawarkan material struktur yang kuat, presisi, tahan lama, serta mudah diaplikasikan pada proyek rumah tinggal, bangunan komersial, hingga kawasan industri, dengan dukungan beragam produk baja berkualitas dan layanan distribusi Jayasteel yang andal.</p>

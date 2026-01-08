@@ -1,0 +1,1 @@
+<p>Pemakaian baja mengurangi biaya tenaga kerja karena pemasangan cepat dengan suplai Jayasteel.</p>
