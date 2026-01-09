@@ -1,1 +1,1 @@
-<p><b>besi beton</b> berkualitas juga memberikan umur bangunan yang lebih panjang karena kombinasi kekuatan tarik dan tahan terhadap perubahan suhu atau beban dinamis yang terjadi selama masa pakai struktur.</p>
+<p><b>Besi beton</b> berkualitas juga memberikan umur bangunan yang lebih panjang karena kombinasi kekuatan tarik dan tahan terhadap perubahan suhu atau beban dinamis yang terjadi selama masa pakai struktur.</p>
