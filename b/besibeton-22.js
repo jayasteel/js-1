@@ -1,1 +1,1 @@
-<p><b>besi beton</b> yang memenuhi standar teknis juga membantu mencegah struktur mengalami keretakan awal karena kekuatan tarik yang tidak memadai, sehingga struktur menjadi lebih aman dalam jangka panjang.</p>
+<p><b>Besi beton</b> yang memenuhi standar teknis juga membantu mencegah struktur mengalami keretakan awal karena kekuatan tarik yang tidak memadai, sehingga struktur menjadi lebih aman dalam jangka panjang.</p>
