@@ -1,1 +1,1 @@
-<p><b>besi beton</b> adalah elemen penting dalam struktur bangunan modern karena bertindak sebagai tulangan baja yang menyatukan beton sehingga tahan terhadap gaya tarik dan lentur serta meningkatkan durabilitas bangunan dari fondasi hingga pelat lantai.</p>
+<p><b>Besi beton</b> adalah elemen penting dalam struktur bangunan modern karena bertindak sebagai tulangan baja yang menyatukan beton sehingga tahan terhadap gaya tarik dan lentur serta meningkatkan durabilitas bangunan dari fondasi hingga pelat lantai.</p>
