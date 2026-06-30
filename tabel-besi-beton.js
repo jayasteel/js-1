@@ -10,6 +10,6 @@ function gRC(rMin,rMax,gMin,gMax,bMin,bMax){return`#${
 const otColor=gRC(0,150,0,50,0,200),thColor=gRC(50,255,150,255,100,225),aColor=gRC(0,50,0,50,50,200);
 document.querySelectorAll('.ot').forEach(o=>o.style.color=otColor);
 document.querySelectorAll('th').forEach(th=>th.style.color=thColor);
-document.querySelectorAll('a').forEach(a=>a.style.color=aColor);
+document.querySelectorAll('.ot a').forEach(a=>a.style.color=aColor);
 
 document.querySelectorAll('.ot').forEach(tbl=>{const RC=(n,x)=>`rgb(${[...Array(3)].map(()=>Math.floor(Math.random()*(x-n+1))+n).join(', ')})`,aC=(color,minAdj,maxAdj)=>color.replace(/\d+/g,v=>Math.min(+v+Math.floor(Math.random()*(maxAdj-minAdj+1))+minAdj,255)),P=Math.random()*10+2|0,o=RC(180,235),e=aC(o,5,20),C=aC(RC(30,60),20,20);tbl.querySelectorAll('thead th').forEach(th=>th.style.backgroundColor=C);tbl.querySelectorAll('tbody tr').forEach((row,i)=>{row.style.backgroundColor=i%2?e:o});tbl.querySelectorAll('td, th').forEach(cell=>{cell.style.padding=`${P}px`});});
